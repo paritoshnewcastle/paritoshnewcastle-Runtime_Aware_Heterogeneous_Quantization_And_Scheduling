@@ -7,7 +7,7 @@ repo_root = Path(__file__).resolve().parents[1]
 paths = json.loads((repo_root / "config" / "paths.json").read_text())
 
 llama_cli = Path(paths["llama_cpp_dir"]) / "llama-cli.exe"
-model_path = (repo_root / paths["model_dir"] / "test_model.gguf").resolve()
+model_path = (repo_root / paths["model_dir"] / "Llama-3.2-3B-Instruct-Q4_K_M.gguf").resolve()
 
 cmd = [
     str(llama_cli),
