@@ -1,0 +1,7 @@
+{
+  "ryzen_ai_root": "C:\\Program Files\\RyzenAI\\1.7.1",
+  "oga_example_dir": "C:\\Program Files\\RyzenAI\\1.7.1\\LLM\\example",
+  "oga_models_root": "C:\\Program Files\\RyzenAI\\1.7.1\\models",
+  "llama_cpp_dir": "C:\\Users\\Newcastle_University\\llama_cpp_binaries\\llama-b8407-windows-rocm-7.2.1-gfx110X-gfx115X-gfx120X-x64",
+  "model_dir": "../models"
+}
