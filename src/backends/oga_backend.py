@@ -28,9 +28,9 @@ class OGABackend(BaseBackend):
         params.set_search_options(max_length=prompt_tokens_count + max_tokens)
 
         generator = og.Generator(self.model, params)
-        generator.append_tokens(tokens)
         
         start_time = time.perf_counter()
+        generator.append_tokens(tokens)
         first_token_time = None
         generated_tokens_ids = []
 
