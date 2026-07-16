@@ -2,5 +2,12 @@
   "ryzen_ai_root": "C:\\Program Files\\RyzenAI\\1.7.1",
   "oga_example_dir": "C:\\Program Files\\RyzenAI\\1.7.1\\LLM\\example",
   "llama_cpp_dir": "C:\\Users\\Newcastle_University\\llama_cpp_binaries\\llama-b8407-windows-rocm-7.2.1-gfx110X-gfx115X-gfx120X-x64",
-  "model_dir": "../models"
+  "model_dir": "../models",
+  "xrt_smi_path": "C:\\Windows\\System32\\AMD\\xrt-smi.exe",
+  "mqtt": {
+    "broker_host": "192.168.1.210",
+    "broker_port": 1883,
+    "topic": "tele/research_smartplug/SENSOR",
+    "power_json_path": "ENERGY.Power"
+  }
 }
