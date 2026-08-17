@@ -1,0 +1,44 @@
+[
+  {
+    "model_name": "Llama-3.2-3B",
+    "backend": "gpu",
+    "runtime": "llama.cpp ROCm",
+    "artifact": "Llama-3.2-3B-Instruct-Q4_K_M.gguf",
+    "quantization": "Q4_K_M"
+  },
+  {
+    "model_name": "Llama-3.2-3B",
+    "backend": "npu",
+    "runtime": "ONNX Runtime GenAI / Ryzen AI",
+    "artifact": "Llama-3.2-3B-Instruct_rai_1.7.1_npu_16K",
+    "quantization": "INT4 (vendor-provided package)"
+  },
+  {
+    "model_name": "Llama-3.2-3B",
+    "backend": "hybrid",
+    "runtime": "ONNX Runtime GenAI / Ryzen AI",
+    "artifact": "Llama-3.2-3B-Instruct_rai_1.7.1_npu_16K",
+    "quantization": "INT4 (vendor-provided package)"
+  },
+  {
+    "model_name": "Phi-3-mini-4k-instruct",
+    "backend": "gpu",
+    "runtime": "llama.cpp ROCm",
+    "artifact": "Phi-3-mini-4k-instruct-q4.gguf",
+    "quantization": "Q4"
+  },
+  {
+    "model_name": "Phi-3-mini-4k-instruct",
+    "backend": "npu",
+    "runtime": "ONNX Runtime GenAI / Ryzen AI",
+    "artifact": "Phi-3-mini-4k-instruct_rai_1.7.1_npu_4K",
+    "quantization": "INT4 (vendor-provided package)"
+  },
+  {
+    "model_name": "Phi-3-mini-4k-instruct",
+    "backend": "hybrid",
+    "runtime": "ONNX Runtime GenAI / Ryzen AI",
+    "artifact": "Phi-3-mini-4k-instruct_rai_1.7.1_hybrid",
+    "quantization": "INT4 (vendor-provided package)"
+  }
+]

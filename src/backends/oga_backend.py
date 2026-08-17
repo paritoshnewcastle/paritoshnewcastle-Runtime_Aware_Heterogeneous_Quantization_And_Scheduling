@@ -25,7 +25,7 @@ class OGABackend(BaseBackend):
         prompt_tokens_count = len(tokens)
         
         params = og.GeneratorParams(self.model)
-        params.set_search_options(max_length=prompt_tokens_count + max_tokens)
+        params.set_search_options(max_length=prompt_tokens_count + max_tokens, min_length=prompt_tokens_count + max_tokens)
 
         generator = og.Generator(self.model, params)
         
